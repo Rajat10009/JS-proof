@@ -16,12 +16,12 @@ Assessment Requirements
 let nftCount =0;
 const nfts=[];
 
-function mintNFT(_name,_eyecolour,_bling,_shirtType) {
+function mintNFT(_name,_eyecolour,_bling, _shirtType) {
  const nft ={
 name: _name,
 eyecolour: _eyecolour,
 bling: _bling,
-shirtType: _shirttype
+shirtType: _shirtType
 };
 nfts.push(nft);
 nftCount++;
@@ -33,19 +33,19 @@ const nft = nfts[i];
 console.log("name: "+ nft.name);
 console.log("eyecolor: "+ nft.eyecolor);
 console.log("bling: "+ nft.bling);
-console.log("shirt Type: "+ nft.shirt Type);
-console.log(......................);
+console.log("shirt Type: "+ nft.shirtType);
+console.log(".....................");
 }
 }
-funtion getTotalSupply(){
+function getTotalSupply(){
 return nftCount;
 }
-const nft1 =minNFT("Critter","Blur","Gold","Hoodie");
-const nft2 =minNFT("Crawler","Red","Silver","T-shirt");
-const nft3 =minNFT("Persian","Grey","Platnum","Blouse");
-const nft4 =minNFT("Whiskers","Green","Diamond","Jacket");
-const nft5 =minNFT("Meowington","Yellow","Enerald","Sweter");
-const nft6 =minNFT("Pawly","purple","Ruby","Tank Top");
+const nft1 =mintNFT("Critter","Blur","Gold","Hoodie");
+const nft2 =mintNFT("Crawler","Red","Silver","T-shirt");
+const nft3 =mintNFT("Persian","Grey","Platnum","Blouse");
+const nft4 =mintNFT("Whiskers","Green","Diamond","Jacket");
+const nft5 =mintNFT("Meowington","Yellow","Enerald","Sweter");
+const nft6 =mintNFT("Pawly","purple","Ruby","Tank Top");
 
 listNFTs();
-consol.log("total NFTs: "+ get TotalSupply();
+console.log("total NFTs:"+ gettotalsupply());
